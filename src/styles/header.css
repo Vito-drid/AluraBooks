@@ -22,9 +22,15 @@
 }
 
 .nav-img {
-    font-size: 33px;
+    font-size: 33px; /* Tamanho da fonte da imagem, embora não se aplique a imagens */
     color: var(--dark-blue);
     padding: 0.4em;
+}
+
+.alt-text {
+    font-size: 12px; /* Tamanho da fonte do texto alternativo */
+    color: var(--dark-blue);
+    display: none; /* Esconde o texto por padrão */
 }
 
 .nav-hearts .heart-full-icon {
