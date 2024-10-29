@@ -95,3 +95,10 @@
     border-radius: 10px;
     text-decoration: none;
 }
+
+.stars-icon{
+    font-size: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    color: var(--orange);
+}

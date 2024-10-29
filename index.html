@@ -36,8 +36,11 @@
                 <li class="lista-menu-item"><a href="https://www.linkedin.com/in/victor-barros-6a2191282/"
                         target="_blank" class="lista-menu-link">Linkedin</a></li>
             </ul>
-            <img class="nav-img" src="src/Img/Logo.svg" alt="Logo do Alura Books" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline';">
+            <div class="nav">
+                <img class="nav-img" src="src/Img/Logo.svg" alt="Logo do Alura Books"
+                    onerror="this.style.display='none'; this.nextElementSibling.style.display='inline';">
                 <span class="alt-text" style="display: none;">Logo do Alura Books</span>
+            </div>
         </div>
         <div class="container-user">
             <div class="nav-hearts">
@@ -113,6 +116,71 @@
 
     </section>
 
+    <section class="carrossel">
+        <h2 class="carrossel-titulo">Mais vendidos</h2>
+
+        <!-- Slider main container -->
+        <div class="swiper">
+
+            <!-- Additional required wrapper -->
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="src/img/Guia Front-end.png" alt="Livro 1"></div>
+                <div class="swiper-slide"><img src="src/img/Arquitetura.svg" alt="Livro 2"></div>
+                <div class="swiper-slide"><img src="src/img/Angular11.png" alt="Livro 3"></div>
+                <div class="swiper-slide"><img src="src/img/Javascript.png" alt="Livro 4"></div>
+                <div class="swiper-slide"><img src="src/img/UX.svg" alt="Livro 5"></div>
+                <div class="swiper-slide"><img src="src/img/Gestão2.svg" alt="Livro 6"></div>
+                <div class="swiper-slide"><img src="src/img/MEAN.svg" alt="Livro 7"></div>
+                <div class="swiper-slide"><img src="src/img/Construct2.svg" alt="Livro 8"></div>
+                <div class="swiper-slide"><img src="src/img/Liderança.png" alt="Livro 9"></div>
+                <div class="swiper-slide"><img src="src/img/ApacheKafka.png" alt="Livro 10"></div>
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+        <div class="card">
+            <!-- 1° linha -->
+            <div class="card-description">
+                <!-- 1° coluna -->
+                <div class="description">
+                    <div class="stars-icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3 class="description-title">Autora do mês</h3>
+                    <h2 class="descrition-book-title">Juliana Agarikov</h2>
+                    <p class="description-text">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
+
+                </div>
+                <!-- 2° coluna -->
+                <img src="src/img/Perfil-escritora 1-1.png" alt="Angular">
+            </div>
+
+            <!-- 2° linha -->
+            <div class="card-btns">
+                <!-- 1° coluna -->
+                <ul class="btns">
+                    <li class="btn-item"><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                    <li class="btn-item"><a href="#"><i class="fa-solid fa-basket-shopping"></i></a></li>
+                </ul>
+                <!-- 2° coluna -->
+                <a href="#" class="btn-ancora">Saiba mais</a>
+            </div>
+        </div>
+
+    </section>
+
     <section class="topicos">
         <h2 class="topicos-titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
         <ul class="topicos-lista">
@@ -133,8 +201,8 @@
         <input type="email" class="contato-email" placeholder="Cadastr seu email">
     </section>
 
-    <hr/>
-    
+    <hr />
+
     <footer class="rodape">
         <h2 class="rodape-titulo">Grupo Alura</h2>
     </footer>
